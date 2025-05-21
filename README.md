@@ -16,7 +16,7 @@ These are words reserved by the Python language. They **cannot** be used as vari
 | **Data Definitions**   | `None`, `in`                                                                 |
 | **Async & Await**      | `async`, `await`                                                             |
 | **Context Management** | `with`                                                                       |
-| **Structural Matching**| `match`, `case` (introduced in Python 3.10)                                  |
+| **Structural Matching**| `match`, `case`                                                              |
 
 # 🎯 Python CLI Workflow for Projects
 
