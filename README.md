@@ -87,3 +87,39 @@ It's a way to tell Python:
 
 > This variable tells Python how the file is being used.
 
+## 📦 Example use case
+
+📄 math_tools.py
+``` 
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+# Demo or test code
+if __name__ == "__main__":
+    print(add(3, 5))        # 8
+    print(subtract(10, 4))  # 6
+```
+
+📄 main_program.py
+``` 
+import math_tools
+
+result = math_tools.add(100, 200)
+print(result)
+
+```
+
+> When you run main_program.py, it does not run the test code in math_tools.py.
+
+## 🔚 Summary
+`__name__` is a special variable set by Python.
+
+When a file is run directly, `__name__ is "__main__"` -> Use to control what runs when :
+
+```
+if __name__ == "__main__":
+    # run test/demo code here
+ ```
