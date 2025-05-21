@@ -76,3 +76,14 @@ For CLI tools, use `setuptools` or `pyinstaller` to create an executable.
 ## 8. 🧼 Clean structure sample
 
 <img width="173" alt="image" src="https://github.com/user-attachments/assets/1294cb7e-9e3c-42c7-9ab3-2f3fe10254ee" />
+
+# 💡 What does `if __name__ == "__main__"`: mean?
+
+It's a way to tell Python:
+
+> Only run this part of the code if you're running this file directly, not if it's imported.
+
+> Python automatically creates a special variable called __name__ in every Python file.
+
+> This variable tells Python how the file is being used.
+
